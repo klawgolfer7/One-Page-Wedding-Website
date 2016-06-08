@@ -28,17 +28,4 @@ $(document).ready(function() {
 			});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
