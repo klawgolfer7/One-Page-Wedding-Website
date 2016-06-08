@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 }
 
-/* Text editing*/
+/* Text Editing */
+
 #firstsection {
 	text-align: center;
 	margin-top: 0px
@@ -49,8 +50,17 @@
     2px 2px 0 black;
 }
 
+#signature {
+	font-size: 20px;
+	font-style: italic;
+	text-align: right;
+	padding-right: 12px;
+}
+/* ^^^^Text Editing^^^^ */
 
-/*Section and Nav styling*/
+/* Section and Nav styling*/
+
+
 section {
 	height: 600px;
 	margin-top: -38px;
@@ -96,6 +106,14 @@ section {
 	cursor: pointer;
 	display: none;
 }
+
+.formbox {
+	background-color: white;
+	margin-right: 400px;
+	margin-left: 400px;
+	font-family: monospace;
+
+}
 /* Background Images for each section.  Taken from Lesson 3 class. */
 body {
 		background-color: #ffe6cc;
@@ -138,13 +156,18 @@ body {
 	}
 
 #bgicon {
-	position: relative;
+	position: absolute;
 	left: 50%;
 }
 
 #bgicon2 {
 	float: left;
 	left: 80%;
+}
+
+#next {
+	margin-bottom: 12px;
+	margin-top: 6px;
 }
 
 /*Adjustment for Ipad and lower devices*/
