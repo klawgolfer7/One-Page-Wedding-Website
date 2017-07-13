@@ -4,33 +4,86 @@
 	box-sizing: border-box;
 }
 
-/* Text editing*/
+/* Text Editing */
 
-#names {
-	color: gold;
+#firstsection {
+	text-align: center;
+	margin-top: 0px
+
+}
+#test {
+	font-family: ;
+    font-size: 108px;
+    font-weight: 400;
+    color: #F93;
+    text-align: center;
+}
+.names {
+	text-align: center;
+	font-size: 30px
 }
 
 #apartment {
 	text-align: right;
-	text
+	margin-right: 200px;
 }
 
+#timeandlocation {
 
-/*Section and Nav styling*/
+	text-align: center;
+	color: white;
+	outline-color: black;
+	outline-width: 2px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.shadowing {
+	color: white;
+	text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+#signature {
+	font-size: 20px;
+	font-style: italic;
+	text-align: right;
+	padding-right: 12px;
+}
+
+.center {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.center2 {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+/* ^^^^Text Editing^^^^ */
+
+/* Section and Nav styling*/
+
+
 section {
 	height: 600px;
 	margin-top: -38px;
 	padding-top: 38px;
 }
 
-#home {
-	margin-top: 0;
-}
-
 .nav-wrapper {
 	text-align: center;
 	background-color: lightblue;
-	opacity: .5;
+	opacity: .8;
 /*	background: (255,2 55,255,0.5);*/
 	position: fixed;
 	top: 0px;
@@ -66,8 +119,17 @@ section {
 	cursor: pointer;
 	display: none;
 }
+
+.formbox {
+	background-color: white;
+	margin-right: 400px;
+	margin-left: 400px;
+	font-family: monospace;
+
+}
 /* Background Images for each section.  Taken from Lesson 3 class. */
 body {
+		background-color: #ffe6cc;
 		margin: 0px;
 	}
 	.photo {
@@ -77,9 +139,11 @@ body {
 		background-size: cover;
 	}
 	
-	.tall {
-		height: 1400px;
-	}
+	.tall {	height: 1000px;}
+	.tall2 {height: 1500px;}
+	.tall3 {height: 2000px;}
+	.tall4 {height: 2500px;}
+	.tall5 {height: 3000px;}
 
 	.kevkel1 {
 		background-image: url(../img/kevkel1-2.jpg);
@@ -92,17 +156,34 @@ body {
 
 	}
 
-	.jerseycity {
-		background-image: url(../img/jerseycity.jpg);
+	.brooklake {
+		background-image: url(../img/brooklake.jpg);
 	}
 
-	.office {
-		background-image: url(../img/office.jpg);
+	.holyfamily {
+		background-image: url(../img/holyfamily2.jpg);
 	}
 
 	.code {
 		background-image: url(../img/code.jpg);
 	}
+
+#bgicon {
+	/*position: absolute;*/
+	padding-left: 276px;
+	width: 1000px;
+	height: 362px;
+}
+
+#bgicon2 {
+	float: left;
+	left: 80%;
+}
+
+#next {
+	margin-bottom: 12px;
+	margin-top: 6px;
+}
 
 /*Adjustment for Ipad and lower devices*/
 @media (max-width: 760px) {
