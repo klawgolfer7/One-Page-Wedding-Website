@@ -6,6 +6,7 @@ $(document).ready(function() {
 
 		$('.entry').on('click', function(e) {
 
+// THis should be working to make the image pop into the carousel
 		var target = $(e.target)
 		var src = target.attr('src')
 
